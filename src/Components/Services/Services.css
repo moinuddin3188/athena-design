@@ -1,0 +1,32 @@
+.services-container {
+    background-color: #f4fcf9;
+    background-image: url('../../Images/servicesbg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.services-container h2 {
+    font-family: 'Playfair Display' !important;
+    font-weight: 700;
+}
+.service h5 {
+    color: #01054b;
+}
+.service p {
+    font-size: 14px;
+}
+.service-card {
+    padding: 45px 45px 35px 45px;
+    cursor: pointer;
+}
+.service-card:hover {
+    background-color: #fff;
+    border-radius: 70px 0px;
+}
+@media (max-width: 576px) {
+    .service {
+        padding: 0 30px;
+    }
+}

@@ -1,0 +1,20 @@
+.header-main {
+    margin-top: 70px;
+    padding-bottom: 60px;
+}
+.header-main h1 {
+    color: #010011;
+    font-family: 'Playfair Display' !important;
+    font-weight: 700;
+    font-size: 73px;
+}
+
+.header-main p {
+    margin-right: 90px;
+}
+
+@media (max-width: 992px){
+    .header-main p {
+        margin-right: 0;
+    }
+}
