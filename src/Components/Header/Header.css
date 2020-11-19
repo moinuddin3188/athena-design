@@ -1,0 +1,6 @@
+.header-container {
+    background-image: url('../../Images/headerbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
