@@ -22,7 +22,7 @@ const Footer = () => {
                 <img
                   className="social-icon"
                   src={Facebook}
-                  alt=""
+                  alt="facebook"
                 />
               </a>
             </li>
@@ -31,7 +31,7 @@ const Footer = () => {
                 <img
                   className="social-icon"
                   src={Twitter}
-                  alt=""
+                  alt="twitter"
                 />
               </a>
               </li>
@@ -40,7 +40,7 @@ const Footer = () => {
                 <img
                   className="social-icon"
                   src={Linkedin}
-                  alt=""
+                  alt="linkedin"
                 />
               </a>
               </li>
@@ -49,7 +49,7 @@ const Footer = () => {
                 <img
                   className="social-icon"
                   src={Dribble}
-                  alt=""
+                  alt="dribble"
                 />
               </a>
               </li>
@@ -58,7 +58,7 @@ const Footer = () => {
                 <img
                   className="social-icon"
                   src={Behance}
-                  alt=""
+                  alt="behance"
                 />
               </a>
               </li>
