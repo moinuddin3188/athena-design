@@ -1,11 +1,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import Pricing from './components/Pricing/Pricing';
-import Subscribe from './components/Subscribe/Subscribe';
-import Header from './components/Header/Header';
-import Services from './components/Services/Services';
-import Footer from './components/Footer/Footer';
+import Header from './Components/Header/Header';
+import Services from './Components/Services/Services';
+import Pricing from './Components/Pricing/Pricing';
+import Subscribe from './Components/Subscribe/Subscribe';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Header/>
       <Services/>
       <Pricing/>
-      <Subscribe />
+      <Subscribe/>
       <Footer/>
     </div>
   );
