@@ -7,13 +7,14 @@ import Pricing from './Components/Pricing/Pricing';
 import Subscribe from './Components/Subscribe/Subscribe';
 import Footer from './Components/Footer/Footer'
 
+
 function App() {
   return (
     <div>
       <Header/>
       <Services/>
       <Pricing/>
-      <Subscribe />
+      <Subscribe/>
       <Footer/>
     </div>
   );
