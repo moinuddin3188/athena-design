@@ -3,7 +3,7 @@ import './Pricing.css'
 
 const Pricing = () => {
   return (
-    <section className="pricing">
+    <section className="pricing" id="pricing">
       <div className="heading-text container">
         <h2>Choose Your Dedicated Team</h2>
       </div>

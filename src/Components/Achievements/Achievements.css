@@ -1,0 +1,39 @@
+.achievements-container {
+    background-color: #FAFFFD;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.achievements-container h2 {
+    color: #010011;
+    font-family: 'Playfair Display' !important;
+    font-weight: 700;
+}
+.first {
+    border-radius: 0 60px;
+}
+.second {
+    border-radius: 60px 0;
+}
+.achievement-card {
+    background-color: #fff;
+    padding: 25px;
+    color: #616161;
+}
+.achievement-card:hover {
+    background-image: linear-gradient(100deg, #0db9de, #1edcb5);
+    color: #fff;
+}
+.achievement-card h3 {
+    font-weight: 800;
+    font-size:32px;
+}
+
+.after-hover {
+    display: none;
+}
+.achievement-card:hover .after-hover {
+    display: block;
+}
+.achievement-card:hover .before-hover {
+    display: none;
+}

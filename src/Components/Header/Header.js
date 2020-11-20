@@ -5,7 +5,7 @@ import Navbar from './Navbar/Navbar';
 
 const Header = () => {
     return (
-        <section className="header-container">
+        <section className="header-container" id='home'>
             <div className="container">
                 <Navbar/>
                 <HeaderMain/>

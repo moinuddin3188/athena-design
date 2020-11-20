@@ -1,6 +1,6 @@
 .subscribe {
   background: #FAFFFD;
-  margin-top: 150px;
+  padding-top: 150px;
 }
 
 .subscribe .heading-text h2 {
@@ -51,4 +51,11 @@
 
 .subscribe button:focus {
   outline: 0;
+}
+
+@media (max-width: 411px) {
+  .subscribe .subscribe-btn {
+    height: 50px;
+    margin-left: 17px;
+  }
 }
