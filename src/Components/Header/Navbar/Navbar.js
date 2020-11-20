@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import logo from '../../../Images/Group 86.png';
+import menu from '../../../Images/menu-2-outline@2x.png'
 
 const Navbar = () => {
     return (
@@ -9,7 +10,7 @@ const Navbar = () => {
                 <img width="100px" src={logo} alt=""/>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class=""> <img src={menu} alt=""/> </span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
